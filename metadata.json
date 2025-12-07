@@ -1,0 +1,8 @@
+{
+  "name": "GADE - Golden Arch Digital Experience",
+  "description": "A world-class QSR digital platform featuring dynamic menus, store locator, and AI-powered nutritional assistance.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
