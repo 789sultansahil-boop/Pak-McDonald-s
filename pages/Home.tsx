@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/ui/Button';
@@ -77,7 +76,7 @@ export const Home: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             { title: 'Re-Order Favorites', icon: Star, desc: 'Login to order your usual in one tap.' },
-            { title: 'Find a Store', icon: MapPin, desc: 'Locate the nearest GADE restaurant.' },
+            { title: 'Find a Store', icon: MapPin, desc: 'Locate the nearest Pak McDonald\'s restaurant.' },
             { title: 'Deals & Rewards', icon: Clock, desc: 'Earn points on every purchase.' },
           ].map((item, idx) => (
             <div key={idx} className="bg-white p-10 rounded-3xl shadow-2xl hover:-translate-y-2 transition-transform duration-300 border border-gray-100">
@@ -135,7 +134,7 @@ export const Home: React.FC = () => {
         <div className="max-w-[1800px] mx-auto px-8 flex flex-col md:flex-row items-center gap-20">
             <div className="flex-1 space-y-8">
                 <span className="text-brand-gold font-bold uppercase tracking-widest text-sm">Download Now</span>
-                <h2 className="text-4xl md:text-6xl font-black leading-tight">Get more with the <br/> GADE App</h2>
+                <h2 className="text-4xl md:text-6xl font-black leading-tight">Get more with the <br/> Pak McDonald's App</h2>
                 <ul className="space-y-6 text-xl">
                     <li className="flex items-center"><Star className="text-brand-gold w-6 h-6 mr-4 flex-shrink-0"/> Mobile Order & Pay</li>
                     <li className="flex items-center"><Star className="text-brand-gold w-6 h-6 mr-4 flex-shrink-0"/> Exclusive Weekly Deals</li>

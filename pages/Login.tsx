@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Button } from '../components/ui/Button';
@@ -54,7 +53,7 @@ export const Login: React.FC = () => {
                 Flavor <br/> Meets <br/> <span className="text-brand-gold">Future.</span>
               </h1>
               <p className="text-2xl text-gray-100 mb-10 font-light leading-relaxed drop-shadow-lg">
-                Welcome to the Golden Arch Digital Experience (GADE). 
+                Welcome to Pak McDonald's. 
                 Our mission is to serve happiness through seamless technology, 
                 bringing your favorite flavors closer than ever before.
               </p>

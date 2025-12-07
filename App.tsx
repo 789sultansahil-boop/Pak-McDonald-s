@@ -48,7 +48,7 @@ const Footer = () => {
     <footer className="bg-brand-dark text-white py-12">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold text-xl mb-4">GADE</h3>
+            <h3 className="font-bold text-xl mb-4">Pak McDonald's</h3>
             <p className="text-gray-400 text-sm">The best digital burger experience on the web.</p>
           </div>
           <div>
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-        © 2024 Golden Arch Digital Experience. All rights reserved.
+        © 2024 Pak McDonald's. All rights reserved.
       </div>
     </footer>
   );

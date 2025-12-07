@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ShoppingBag, MapPin, User, Menu as MenuIcon, LogIn } from 'lucide-react';
@@ -23,7 +22,7 @@ export const Navbar: React.FC = () => {
             <div className="w-12 h-12 bg-brand-red rounded-xl flex items-center justify-center transform group-hover:rotate-12 transition-transform shadow-lg shadow-red-900/20">
                <span className="text-brand-gold font-black text-3xl">M</span>
             </div>
-            <span className="font-bold text-2xl tracking-tight hidden sm:block">GADE</span>
+            <span className="font-bold text-2xl tracking-tight hidden sm:block">Pak McDonald's</span>
           </Link>
 
           {/* Desktop Links */}

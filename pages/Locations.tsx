@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { MOCK_STORES } from '../constants';
 import { 
@@ -70,7 +69,7 @@ export const Locations: React.FC = () => {
           {/* List View */}
           <div className="w-full lg:w-1/3 flex flex-col">
             <div className="mb-6">
-              <h1 className="text-3xl font-bold text-brand-dark mb-4">Find a GADE</h1>
+              <h1 className="text-3xl font-bold text-brand-dark mb-4">Find a Pak McDonald's</h1>
               <div className="flex gap-2">
                 <input 
                   type="text" 
